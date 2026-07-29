@@ -23,6 +23,11 @@ const services = [
     title: "Home assistance",
     copy: "Flexible help with everyday household tasks when you need more than a standard cleaning checklist.",
   },
+  {
+    number: "05",
+    title: "Aged care & disability support",
+    copy: "Respectful in-home cleaning and household help for older clients and people living with disability. Available to self-managed and plan-managed NDIS participants.",
+  },
 ];
 
 const testimonials = [
@@ -263,6 +268,30 @@ export default function Home() {
             <details>
               <summary>How quickly will you respond?</summary>
               <p>We aim to respond as soon as practical around client work. Complete quote details help us provide an accurate answer sooner.</p>
+            </details>
+            <details>
+              <summary>Are you police-checked?</summary>
+              <p>Yes. Both of us hold current national police checks, and we&apos;re happy to provide evidence on request. Anyone you let into your home should be able to do the same.</p>
+            </details>
+            <details>
+              <summary>How much does house cleaning cost in Sydney?</summary>
+              <p>Our rate is $60 per hour per cleaner, with a $120 minimum call-out. What a specific home costs depends on its size, condition and how often we visit — we confirm the expected time with you before booking, never after.</p>
+            </details>
+            <details>
+              <summary>Do I need to provide cleaning products and equipment?</summary>
+              <p>No — we bring what we need. If you&apos;d prefer we use particular products in your home, whether for allergies, surfaces or personal preference, just let us know and we&apos;ll work with those instead.</p>
+            </details>
+            <details>
+              <summary>Am I locked into a contract?</summary>
+              <p>No. There are no lock-in contracts and no cancellation fees. Regular clients can pause, reschedule or stop whenever they need to — we just ask for reasonable notice where possible.</p>
+            </details>
+            <details>
+              <summary>Do you do end of lease or bond cleaning?</summary>
+              <p>Yes. Move-out cleans are quoted as a one-off job based on the property&apos;s size and condition. Tell us your inspection date and what your agent expects, and we&apos;ll let you know honestly whether we can meet it.</p>
+            </details>
+            <details>
+              <summary>Do you work with NDIS participants or older clients?</summary>
+              <p>Yes. We&apos;ve provided aged care and in-home support work since 2019, and we work with self-managed and plan-managed NDIS participants. There&apos;s more detail on our <Link href="/aged-care-support">aged care &amp; disability support page</Link>.</p>
             </details>
           </div>
         </div>
