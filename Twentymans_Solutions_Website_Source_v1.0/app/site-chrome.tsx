@@ -18,6 +18,7 @@ export function SiteHeader() {
         <nav className="desktop-nav" aria-label="Primary navigation">
           <Link href="/services">Services</Link>
           <Link href="/about">About</Link>
+          <Link href="/tips">Tips</Link>
           <Link href="/#areas">Areas</Link>
           <Link href="/#faq">FAQs</Link>
         </nav>
@@ -51,6 +52,7 @@ export function SiteFooter() {
           <h3>Explore</h3>
           <Link href="/services">Services</Link>
           <Link href="/about">About us</Link>
+          <Link href="/tips">Cleaning tips</Link>
           <Link href="/contact">Request a quote</Link>
         </div>
         <div>
