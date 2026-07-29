@@ -6,7 +6,7 @@ import { FormEvent, useState } from "react";
 // as the delivery address. This key is meant to be public/client-side (same model as
 // a reCAPTCHA site key); it only authorises sending TO the address it was created for,
 // it cannot be used to read or redirect mail elsewhere.
-const WEB3FORMS_ACCESS_KEY = "REPLACE_WITH_YOUR_WEB3FORMS_ACCESS_KEY";
+const WEB3FORMS_ACCESS_KEY = "184be1e2-4b37-42cb-be5b-f0911d55262b";
 
 type SendState = "idle" | "sending" | "sent" | "error";
 
