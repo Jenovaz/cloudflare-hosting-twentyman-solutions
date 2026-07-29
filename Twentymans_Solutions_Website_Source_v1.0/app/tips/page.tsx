@@ -54,6 +54,19 @@ const tips = [
       "Not sure which fits? Tell us the current condition honestly — we'll recommend what actually makes sense, not just the bigger booking",
     ],
   },
+  {
+    title: "Keeping shower glass clear and streak-free",
+    intro:
+      "Cloudy shower glass is almost always soap scum and hard-water mineral build-up, not a flaw in the glass itself. A few things that make a real difference:",
+    items: [
+      "Squeegee the glass straight after each shower — it takes 15 seconds and is the single biggest thing that prevents build-up in the first place",
+      "For light residue, a simple dish soap and warm water wipe-down works well weekly",
+      "For established hard-water spots, a diluted white vinegar solution left to sit for a few minutes before wiping usually breaks it down without needing anything harsh",
+      "Avoid abrasive scourers or scouring powders — they can create fine scratches that make future build-up stick even faster",
+      "Check any tinted, frosted or coated glass for the manufacturer's cleaning guidance first, since acidic cleaners like vinegar aren't suitable for every coating",
+      "If build-up has been left for a long time (heavy scale, grimy tracks), that's usually a job worth booking in rather than fighting with harsher chemicals yourself",
+    ],
+  },
 ];
 
 export default function TipsPage() {
