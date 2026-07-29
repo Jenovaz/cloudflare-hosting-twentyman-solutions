@@ -25,6 +25,11 @@ const services = [
   },
   {
     number: "05",
+    title: "Strata & common area cleaning",
+    copy: "Consistent common area cleaning for residential and mixed-use buildings, backed by over six years of strata experience.",
+  },
+  {
+    number: "06",
     title: "Aged care & disability support",
     copy: "Respectful in-home cleaning and household help for older clients and people living with disability. Available to self-managed and plan-managed NDIS participants.",
   },
@@ -287,7 +292,7 @@ export default function Home() {
             </details>
             <details>
               <summary>Do you do end of lease or bond cleaning?</summary>
-              <p>Yes. Move-out cleans are quoted as a one-off job based on the property&apos;s size and condition. Tell us your inspection date and what your agent expects, and we&apos;ll let you know honestly whether we can meet it.</p>
+              <p>Yes. Move-out cleans are quoted as a one-off job based on the property&apos;s size and condition. Tell us your inspection date and what your agent expects, and we&apos;ll let you know honestly whether we can meet it. Full detail on our <Link href="/end-of-lease-cleaning">end of lease cleaning page</Link>.</p>
             </details>
             <details>
               <summary>Do you work with NDIS participants or older clients?</summary>

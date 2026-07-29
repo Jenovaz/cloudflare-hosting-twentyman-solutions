@@ -18,6 +18,7 @@ export function SiteHeader() {
         <nav className="desktop-nav" aria-label="Primary navigation">
           <Link href="/services">Services</Link>
           <Link href="/about">About</Link>
+          <Link href="/strata-cleaning">Strata</Link>
           <Link href="/aged-care-support">Aged Care</Link>
           <Link href="/tips">Tips</Link>
           <Link href="/#areas">Areas</Link>
@@ -53,6 +54,8 @@ export function SiteFooter() {
           <h3>Explore</h3>
           <Link href="/services">Services</Link>
           <Link href="/about">About us</Link>
+          <Link href="/strata-cleaning">Strata cleaning</Link>
+          <Link href="/end-of-lease-cleaning">End of lease cleaning</Link>
           <Link href="/aged-care-support">Aged care &amp; disability</Link>
           <Link href="/tips">Cleaning tips</Link>
           <Link href="/contact">Request a quote</Link>
