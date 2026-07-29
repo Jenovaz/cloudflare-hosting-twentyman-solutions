@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -28,6 +29,16 @@ export default function WentworthPointPage() {
           <p>
             This is our home patch. We live and work here, which means shorter travel, easier scheduling and a genuinely local service across Wentworth Point, Olympic Park, Lidcombe and Auburn.
           </p>
+        </div>
+        <div className="container page-feature-image">
+          <img
+            src="/team-apartment-kitchen.webp"
+            alt="Twentyman&apos;s Cleaning Solutions team member wiping down a kitchen benchtop in a Wentworth Point apartment"
+            width="1536"
+            height="1024"
+            loading="eager"
+            decoding="async"
+          />
         </div>
       </section>
 

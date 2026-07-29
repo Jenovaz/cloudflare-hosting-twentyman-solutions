@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -59,6 +60,16 @@ export default function EndOfLeasePage() {
           <p>
             End of lease cleaning across Sydney, quoted honestly against your property&apos;s actual condition and your actual inspection date.
           </p>
+        </div>
+        <div className="container page-feature-image">
+          <img
+            src="/team-bathroom-detail.webp"
+            alt="Twentyman&apos;s Cleaning Solutions team member detailing a bathroom vanity and mirror during an end of lease clean"
+            width="1600"
+            height="900"
+            loading="eager"
+            decoding="async"
+          />
         </div>
       </section>
 

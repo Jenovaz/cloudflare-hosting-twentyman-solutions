@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -28,6 +29,16 @@ export default function SydneyCbdPage() {
           <p>
             Apartment and unit cleaning for city residents, owners and investors — with the access logistics handled properly rather than treated as an afterthought.
           </p>
+        </div>
+        <div className="container page-feature-image">
+          <img
+            src="/team-window-cleaning.webp"
+            alt="Twentyman&apos;s Cleaning Solutions team member cleaning interior glass in a Sydney high-rise apartment"
+            width="1254"
+            height="1254"
+            loading="eager"
+            decoding="async"
+          />
         </div>
       </section>
 
