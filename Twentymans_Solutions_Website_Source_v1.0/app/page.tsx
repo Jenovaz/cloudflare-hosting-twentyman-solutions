@@ -54,12 +54,12 @@ const testimonials = [
 ];
 
 const areas = [
-  "Wentworth Point & surrounds",
-  "Inner West",
-  "Sydney CBD & Inner Sydney",
-  "North Shore",
-  "Northern Beaches",
-  "Eastern Suburbs",
+  { label: "Wentworth Point & surrounds", href: "/cleaning-wentworth-point" },
+  { label: "Sydney CBD & Inner City", href: "/cleaning-sydney-cbd" },
+  { label: "Northern Beaches", href: "/cleaning-northern-beaches" },
+  { label: "Inner West", href: null },
+  { label: "North Shore", href: null },
+  { label: "Eastern Suburbs", href: null },
 ];
 
 export default function Home() {
@@ -239,9 +239,15 @@ export default function Home() {
             </Link>
           </div>
           <div className="area-list">
-            {areas.map((area) => (
-              <span key={area}>{area}</span>
-            ))}
+            {areas.map((area) =>
+              area.href ? (
+                <Link key={area.label} href={area.href}>
+                  {area.label}
+                </Link>
+              ) : (
+                <span key={area.label}>{area.label}</span>
+              )
+            )}
           </div>
         </div>
       </section>
