@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -55,6 +56,16 @@ export default function StrataCleaningPage() {
           <p>
             Strata cleaning across Sydney, backed by over six years of hands-on experience in residential and mixed-use buildings.
           </p>
+        </div>
+        <div className="container page-feature-image">
+          <img
+            src="/team-hallway-mirror.webp"
+            alt="Twentyman&apos;s Cleaning Solutions team member cleaning glass and mirrored surfaces in a shared hallway"
+            width="1536"
+            height="1024"
+            loading="eager"
+            decoding="async"
+          />
         </div>
       </section>
 

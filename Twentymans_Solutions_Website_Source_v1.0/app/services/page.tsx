@@ -43,10 +43,10 @@ export default function ServicesPage() {
         </div>
         <div className="container page-feature-image">
           <img
-            src="/services-clean-kitchen-v2.webp"
-            alt="Freshly detailed modern kitchen with clean benchtops and sink"
-            width="1672"
-            height="941"
+            src="/team-kitchen-bench.webp"
+            alt="Twentyman&apos;s Cleaning Solutions team member wiping down a kitchen benchtop"
+            width="1536"
+            height="1024"
             loading="eager"
             decoding="async"
           />

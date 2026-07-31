@@ -148,10 +148,10 @@ export default function Home() {
         <div className="container story-grid">
           <div className="story-image">
             <img
-              src="/home-assistance-bedroom-v2.webp"
-              alt="Freshly made bedroom with folded linen ready for home assistance"
-              width="1122"
-              height="1402"
+              src="/team-arriving-supplies.webp"
+              alt="Twentyman&apos;s Cleaning Solutions team member arriving at a client&apos;s home with a caddy of cleaning supplies"
+              width="1003"
+              height="1568"
               loading="lazy"
               decoding="async"
             />
