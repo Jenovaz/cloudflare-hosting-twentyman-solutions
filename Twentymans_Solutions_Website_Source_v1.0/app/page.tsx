@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "./site-chrome";
 
@@ -95,7 +94,9 @@ export default function Home() {
           </div>
 
           <div className="hero-visual" aria-label="A freshly cleaned contemporary Sydney home">
-            <img
+            <picture>
+              <source media="(max-width: 680px)" srcSet="/mobile/hero-property-clean-v2.webp" />
+              <img
               src="/hero-property-clean-v2.webp"
               alt="Freshly cleaned contemporary Sydney apartment living and dining space"
               width="960"
@@ -103,6 +104,7 @@ export default function Home() {
               loading="eager"
               decoding="async"
             />
+            </picture>
             <div className="hero-visual-caption">
               <p className="mini-label">A personal service</p>
               <h2>Your home. Your priorities.</h2>
@@ -147,7 +149,9 @@ export default function Home() {
       <section className="section section-blue">
         <div className="container story-grid">
           <div className="story-image">
-            <img
+            <picture>
+              <source media="(max-width: 680px)" srcSet="/mobile/team-arriving-supplies.webp" />
+              <img
               src="/team-arriving-supplies.webp"
               alt="Twentyman&apos;s Cleaning Solutions team member arriving at a client&apos;s home with a caddy of cleaning supplies"
               width="1016"
@@ -155,6 +159,7 @@ export default function Home() {
               loading="lazy"
               decoding="async"
             />
+            </picture>
           </div>
           <div className="story-copy">
             <p className="eyebrow eyebrow-light">Why Twentyman&apos;s</p>

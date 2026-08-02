@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -83,7 +82,9 @@ export default function TipsPage() {
           </p>
         </div>
         <div className="container page-feature-image">
-          <img
+          <picture>
+            <source media="(max-width: 680px)" srcSet="/mobile/team-shower-glass.webp" />
+            <img
             src="/team-shower-glass.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member squeegeeing a shower screen to leave the glass streak-free"
             width="1620"
@@ -91,6 +92,7 @@ export default function TipsPage() {
             loading="eager"
             decoding="async"
           />
+          </picture>
         </div>
       </section>
       <section className="section">

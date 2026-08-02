@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -62,7 +61,9 @@ export default function EndOfLeasePage() {
           </p>
         </div>
         <div className="container page-feature-image">
-          <img
+          <picture>
+            <source media="(max-width: 680px)" srcSet="/mobile/team-bathroom-detail.webp" />
+            <img
             src="/team-bathroom-detail.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member detailing a bathroom vanity and mirror during an end of lease clean"
             width="1620"
@@ -70,6 +71,7 @@ export default function EndOfLeasePage() {
             loading="eager"
             decoding="async"
           />
+          </picture>
         </div>
       </section>
 

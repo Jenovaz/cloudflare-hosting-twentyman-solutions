@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -31,7 +30,9 @@ export default function NorthernBeachesPage() {
           </p>
         </div>
         <div className="container page-feature-image">
-          <img
+          <picture>
+            <source media="(max-width: 680px)" srcSet="/mobile/team-kitchen-clean.webp" />
+            <img
             src="/team-kitchen-clean.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member cleaning a bright kitchen benchtop in a Northern Beaches home"
             width="1620"
@@ -39,6 +40,7 @@ export default function NorthernBeachesPage() {
             loading="eager"
             decoding="async"
           />
+          </picture>
         </div>
       </section>
 

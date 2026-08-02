@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -58,7 +57,9 @@ export default function StrataCleaningPage() {
           </p>
         </div>
         <div className="container page-feature-image">
-          <img
+          <picture>
+            <source media="(max-width: 680px)" srcSet="/mobile/team-hallway-mirror.webp" />
+            <img
             src="/team-hallway-mirror.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member cleaning glass and mirrored surfaces in a shared hallway"
             width="1620"
@@ -66,6 +67,7 @@ export default function StrataCleaningPage() {
             loading="eager"
             decoding="async"
           />
+          </picture>
         </div>
       </section>
 

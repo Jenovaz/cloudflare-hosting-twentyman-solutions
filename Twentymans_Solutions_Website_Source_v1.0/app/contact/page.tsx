@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 import { QuoteForm } from "./quote-form";
@@ -28,7 +27,9 @@ export default function ContactPage() {
             <a className="contact-link" href="mailto:twentyman.solutions@gmail.com"><span>Email</span>twentyman.solutions@gmail.com</a>
             <div className="response-note"><strong>Sydney service coverage</strong><p>Regular routes through the Inner West, Inner City, North Shore, Hornsby area and Northern Beaches.</p></div>
             <div className="contact-image">
-              <img
+              <picture>
+                <source media="(max-width: 680px)" srcSet="/mobile/contact-quote.webp" />
+                <img
                 src="/contact-quote.webp"
                 alt="Phone and notebook ready for a cleaning quote enquiry"
                 width="1260"
@@ -36,6 +37,7 @@ export default function ContactPage() {
                 loading="lazy"
                 decoding="async"
               />
+              </picture>
             </div>
           </div>
           <QuoteForm />

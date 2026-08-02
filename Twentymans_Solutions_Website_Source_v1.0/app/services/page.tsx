@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -42,7 +41,9 @@ export default function ServicesPage() {
           <p>Every quote starts with the property, priorities and outcome—not a one-size-fits-all package.</p>
         </div>
         <div className="container page-feature-image">
-          <img
+          <picture>
+            <source media="(max-width: 680px)" srcSet="/mobile/team-kitchen-bench.webp" />
+            <img
             src="/team-kitchen-bench.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member wiping down a kitchen benchtop"
             width="1620"
@@ -50,6 +51,7 @@ export default function ServicesPage() {
             loading="eager"
             decoding="async"
           />
+          </picture>
         </div>
       </section>
       <section className="section">

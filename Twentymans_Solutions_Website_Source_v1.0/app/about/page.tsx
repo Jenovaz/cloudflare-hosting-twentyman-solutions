@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
@@ -22,7 +21,9 @@ export default function AboutPage() {
       <section className="section">
         <div className="container about-grid">
           <div className="about-card about-photo">
-            <img
+            <picture>
+              <source media="(max-width: 680px)" srcSet="/mobile/about-hands-on-team-v2.webp" />
+              <img
               src="/about-hands-on-team-v2.webp"
               alt="Two-person team preparing an organised cleaning kit"
               width="960"
@@ -30,6 +31,7 @@ export default function AboutPage() {
               loading="eager"
               decoding="async"
             />
+            </picture>
             <div className="about-photo-caption">
               <span>Owner-operated</span>
               <p>Hands-on service<br />Sydney, NSW</p>
