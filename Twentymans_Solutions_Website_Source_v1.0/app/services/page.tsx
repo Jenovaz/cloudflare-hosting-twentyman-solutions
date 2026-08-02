@@ -45,8 +45,8 @@ export default function ServicesPage() {
           <img
             src="/team-kitchen-bench.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member wiping down a kitchen benchtop"
-            width="1536"
-            height="1024"
+            width="1620"
+            height="600"
             loading="eager"
             decoding="async"
           />

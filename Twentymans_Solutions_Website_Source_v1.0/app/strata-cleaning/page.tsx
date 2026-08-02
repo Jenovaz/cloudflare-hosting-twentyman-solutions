@@ -61,8 +61,8 @@ export default function StrataCleaningPage() {
           <img
             src="/team-hallway-mirror.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member cleaning glass and mirrored surfaces in a shared hallway"
-            width="1536"
-            height="1024"
+            width="1620"
+            height="600"
             loading="eager"
             decoding="async"
           />

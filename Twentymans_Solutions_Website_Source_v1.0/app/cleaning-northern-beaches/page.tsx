@@ -34,8 +34,8 @@ export default function NorthernBeachesPage() {
           <img
             src="/team-kitchen-clean.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member cleaning a bright kitchen benchtop in a Northern Beaches home"
-            width="1536"
-            height="1024"
+            width="1620"
+            height="600"
             loading="eager"
             decoding="async"
           />

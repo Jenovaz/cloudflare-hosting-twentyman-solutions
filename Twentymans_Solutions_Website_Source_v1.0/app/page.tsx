@@ -98,8 +98,8 @@ export default function Home() {
             <img
               src="/hero-property-clean-v2.webp"
               alt="Freshly cleaned contemporary Sydney apartment living and dining space"
-              width="1586"
-              height="992"
+              width="960"
+              height="1200"
               loading="eager"
               decoding="async"
             />
@@ -150,8 +150,8 @@ export default function Home() {
             <img
               src="/team-arriving-supplies.webp"
               alt="Twentyman&apos;s Cleaning Solutions team member arriving at a client&apos;s home with a caddy of cleaning supplies"
-              width="1003"
-              height="1568"
+              width="1016"
+              height="1200"
               loading="lazy"
               decoding="async"
             />

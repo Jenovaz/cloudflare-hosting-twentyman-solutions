@@ -34,8 +34,8 @@ export default function WentworthPointPage() {
           <img
             src="/team-apartment-kitchen.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member wiping down a kitchen benchtop in a Wentworth Point apartment"
-            width="1536"
-            height="1024"
+            width="1620"
+            height="600"
             loading="eager"
             decoding="async"
           />

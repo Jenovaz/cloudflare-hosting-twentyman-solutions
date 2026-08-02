@@ -31,8 +31,8 @@ export default function ContactPage() {
               <img
                 src="/contact-quote.webp"
                 alt="Phone and notebook ready for a cleaning quote enquiry"
-                width="933"
-                height="1400"
+                width="1260"
+                height="1200"
                 loading="lazy"
                 decoding="async"
               />

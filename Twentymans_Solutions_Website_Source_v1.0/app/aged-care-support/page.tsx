@@ -61,8 +61,8 @@ export default function AgedCareSupportPage() {
           <img
             src="/team-laundry-support.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member helping with laundry and benchtops in a client&apos;s home"
-            width="1536"
-            height="1024"
+            width="1620"
+            height="600"
             loading="eager"
             decoding="async"
           />

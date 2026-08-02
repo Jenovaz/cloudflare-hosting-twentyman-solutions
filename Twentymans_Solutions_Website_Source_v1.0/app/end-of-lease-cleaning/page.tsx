@@ -65,8 +65,8 @@ export default function EndOfLeasePage() {
           <img
             src="/team-bathroom-detail.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member detailing a bathroom vanity and mirror during an end of lease clean"
-            width="1600"
-            height="900"
+            width="1620"
+            height="600"
             loading="eager"
             decoding="async"
           />

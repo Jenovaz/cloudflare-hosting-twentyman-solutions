@@ -25,8 +25,8 @@ export default function AboutPage() {
             <img
               src="/about-hands-on-team-v2.webp"
               alt="Two-person team preparing an organised cleaning kit"
-              width="1122"
-              height="1402"
+              width="960"
+              height="1200"
               loading="eager"
               decoding="async"
             />

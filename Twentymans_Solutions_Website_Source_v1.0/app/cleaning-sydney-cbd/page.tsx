@@ -34,8 +34,8 @@ export default function SydneyCbdPage() {
           <img
             src="/team-window-cleaning.webp"
             alt="Twentyman&apos;s Cleaning Solutions team member cleaning interior glass in a Sydney high-rise apartment"
-            width="1254"
-            height="1254"
+            width="1620"
+            height="600"
             loading="eager"
             decoding="async"
           />
