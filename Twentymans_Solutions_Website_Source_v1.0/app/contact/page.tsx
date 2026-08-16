@@ -3,8 +3,8 @@ import { SiteFooter, SiteHeader } from "../site-chrome";
 import { QuoteForm } from "./quote-form";
 
 export const metadata: Metadata = {
-  title: "Free Cleaning Quote Sydney | Twentyman's Solutions",
-  description: "Request a free residential cleaning or home assistance quote from Twentyman's Cleaning Solutions.",
+  title: "Free Cleaning Quote Sydney",
+  description: "Request a free residential cleaning or home assistance quote from Twentyman's Solutions.",
 };
 
 export default function ContactPage() {

@@ -74,7 +74,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="container footer-bottom">
-        <span>© 2026 Twentyman&apos;s Cleaning Solutions</span>
+        <span>© 2026 Twentyman&apos;s Solutions</span>
         <span>Finding you the right solution. Every time.</span>
       </div>
     </footer>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "Cleaners in Sydney CBD & Inner City | Twentyman's Cleaning Solutions",
+  title: "Cleaners in Sydney CBD & Inner City",
   description:
     "Apartment and unit cleaning across Sydney CBD and the inner city. Owner-operated, police-checked, and experienced with secure buildings, concierge access and end of lease turnovers.",
 };

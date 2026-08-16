@@ -3,9 +3,9 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "Home Cleaning Tips | Twentyman's Cleaning Solutions",
+  title: "Home Cleaning Tips",
   description:
-    "Practical, no-nonsense cleaning and home-care tips from Twentyman's Cleaning Solutions — Sydney's owner-operated residential cleaning team.",
+    "Practical, no-nonsense cleaning and home-care tips from Twentyman's Solutions — Sydney's owner-operated residential cleaning team.",
 };
 
 const tips = [

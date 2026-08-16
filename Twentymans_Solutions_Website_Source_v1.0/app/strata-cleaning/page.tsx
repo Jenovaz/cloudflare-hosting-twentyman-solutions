@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "Strata Cleaning Sydney | Common Area Cleaning | Twentyman's Cleaning Solutions",
+  title: "Strata Cleaning Sydney | Common Area Cleaning",
   description:
     "Strata and common area cleaning across Sydney. Over 6 years of strata experience, owner-operated, with consistent scheduling and direct contact — no account managers or call centres.",
 };

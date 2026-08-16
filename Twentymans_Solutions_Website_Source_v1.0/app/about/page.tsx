@@ -3,8 +3,8 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "About Blake & Jess | Twentyman's Cleaning Solutions",
-  description: "Meet the owner-operated two-person team behind Twentyman's Cleaning Solutions, providing residential cleaning and home assistance across Sydney.",
+  title: "About Blake & Jess",
+  description: "Meet the owner-operated two-person team behind Twentyman's Solutions, providing residential cleaning and home assistance across Sydney.",
 };
 
 export default function AboutPage() {

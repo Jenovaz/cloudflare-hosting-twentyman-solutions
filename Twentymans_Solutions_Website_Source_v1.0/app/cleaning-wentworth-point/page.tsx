@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "Cleaners in Wentworth Point, Olympic Park, Lidcombe & Auburn | Twentyman's Cleaning Solutions",
+  title: "Cleaners in Wentworth Point, Olympic Park, Lidcombe & Auburn",
   description:
     "Local, owner-operated cleaning in Wentworth Point, Sydney Olympic Park, Lidcombe and Auburn. Apartment and strata specialists based in the area — police-checked and genuinely local.",
 };

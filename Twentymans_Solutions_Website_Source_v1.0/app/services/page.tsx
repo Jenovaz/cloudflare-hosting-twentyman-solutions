@@ -4,7 +4,7 @@ import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
   title: "Residential Cleaning & Home Assistance Sydney",
-  description: "Explore regular cleaning, deep cleans, move-in and move-out cleaning, and flexible home assistance from Twentyman's Cleaning Solutions.",
+  description: "Explore regular cleaning, deep cleans, move-in and move-out cleaning, and flexible home assistance from Twentyman's Solutions.",
 };
 
 const serviceDetails = [

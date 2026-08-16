@@ -122,7 +122,7 @@ export default function Home() {
           <div className="section-heading split-heading">
             <div>
               <p className="eyebrow">How we can help</p>
-              <h2>Cleaning that fits real life</h2>
+              <h2>Cleaning that works around your week.</h2>
             </div>
             <p>
               From regular upkeep to a detailed reset, we agree on priorities
@@ -186,7 +186,7 @@ export default function Home() {
         <div className="container">
           <div className="section-heading centered">
             <p className="eyebrow">Simple from the start</p>
-            <h2>From enquiry to a home that feels reset</h2>
+            <h2>Three steps, no back-and-forth.</h2>
           </div>
           <div className="steps">
             <article>
@@ -317,7 +317,7 @@ export default function Home() {
         <div className="container cta-inner">
           <div>
             <p className="eyebrow eyebrow-light">Ready when you are</p>
-            <h2>Tell us what would make home feel easier.</h2>
+            <h2>Let's find the right fit for your home.</h2>
             <p>Request a free, no-obligation quote tailored to your home.</p>
           </div>
           <div className="button-row">

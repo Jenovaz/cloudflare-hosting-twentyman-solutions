@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "Cleaners on the Northern Beaches — Dee Why, Manly, Belrose & Brookvale | Twentyman's Cleaning Solutions",
+  title: "Cleaners on the Northern Beaches — Dee Why, Manly, Belrose & Brookvale",
   description:
     "House and apartment cleaning across the Northern Beaches, including Dee Why, Manly, Belrose and Brookvale. Owner-operated, police-checked, and used to coastal homes.",
 };

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "Aged Care & Disability Support Cleaning Sydney | Twentyman's Cleaning Solutions",
+  title: "Aged Care & Disability Support Cleaning Sydney",
   description:
     "Respectful in-home cleaning and household support for older Australians and people living with disability across Sydney. Police-checked, owner-operated, and available to self-managed and plan-managed NDIS participants.",
 };

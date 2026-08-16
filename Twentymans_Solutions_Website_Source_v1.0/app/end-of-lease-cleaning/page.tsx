@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../site-chrome";
 
 export const metadata: Metadata = {
-  title: "End of Lease & Bond Cleaning Sydney | Twentyman's Cleaning Solutions",
+  title: "End of Lease & Bond Cleaning Sydney",
   description:
     "End of lease and bond cleaning across Sydney from an owner-operated team. Honest assessments, realistic timeframes, and a clear quote before we start — not an inflated promise.",
 };
