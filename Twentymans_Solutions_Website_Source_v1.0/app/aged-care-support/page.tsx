@@ -12,7 +12,7 @@ const supports = [
   {
     title: "Support after injury, illness or surgery",
     intro:
-      "When someone is recovering, the usual household routine can quickly become overwhelming. We completely understand this and have developed practical methods that really do help when you truly need an extra hand. That matters more to us than a rigid cleaning checklist.",
+      "When someone is recovering, the usual household routine can quickly become overwhelming. We understand that what helps most is often an extra pair of hands and practical support with the things that matter. To us, that means more than simply working through a rigid cleaning checklist.",
     items: [
       "Keeping kitchens, bathrooms and living areas hygienic and safe to move around",
       "Reducing trip hazards — clutter on floors, loose mats, cluttered walkways",
