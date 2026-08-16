@@ -5,14 +5,14 @@ import { SiteFooter, SiteHeader } from "../site-chrome";
 export const metadata: Metadata = {
   title: "Aged Care & Disability Support Cleaning Sydney",
   description:
-    "Respectful in-home cleaning and household support for older Australians and people living with disability across Sydney. Police-checked, owner-operated, and available to self-managed and plan-managed NDIS participants.",
+    "Respectful in-home cleaning and household support for older Australians and people living with disabilities across Sydney. Police-checked, Experienced & available to self-managed and plan-managed NDIS participants.",
 };
 
 const supports = [
   {
     title: "Support after injury, illness or surgery",
     intro:
-      "When someone is recovering and the usual household routine becomes difficult, practical help matters more than a rigid cleaning checklist.",
+      "When someone is recovering, the usual household routine can quickly become overwhelming. We completely understand this and have developed practical methods that really do help when you truly need an extra hand. That matters more to us than a rigid cleaning checklist.",
     items: [
       "Keeping kitchens, bathrooms and living areas hygienic and safe to move around",
       "Reducing trip hazards — clutter on floors, loose mats, cluttered walkways",
@@ -21,25 +21,28 @@ const supports = [
     ],
   },
   {
-    title: "Ongoing help for older clients living at home",
+    title: "We are more than just Cleaners" "Ongoing help for older clients living at home",
     intro:
-      "Staying in your own home for longer often comes down to the household tasks that get harder over time. We help with exactly those.",
+      "intro:
+  "When everyday household jobs start becoming harder, we step in because above all, we care, and we want to make sure that every visit gets you one step closer to staying comfortable in your own home.",
     items: [
       "Consistent, familiar faces — you always know who is coming to your home",
       "A steady, unhurried pace, with time to talk through what you'd like done",
       "The heavier or higher-reach jobs that have become difficult or unsafe",
-      "Flexible frequency — weekly, fortnightly, or as needed",
+      "Flexible frequency — weekly, fortnightly, or a more personal roster as needed",
     ],
   },
   {
-    title: "Cleaning support for people living with disability",
+    title: "Cleaning & real support for people living with disability",
     intro:
-      "We work with participants and their families directly to build a routine around how the household actually runs, not a generic service template.",
+      intro:
+  "We work directly with you and, where appropriate, your family or plan manager to build a routine around how your home actually runs, rather than fitting you into a generic service template.",
     items: [
-      "Support shaped around routines, sensory needs and how you prefer your home kept",
-      "Clear, itemised invoicing suitable for self-managed and plan-managed claiming",
-      "Consistent scheduling so visits are predictable, not disruptive",
-      "Direct communication with you, your family or your plan manager as preferred",
+     "Consistent & Safe. Familiar faces — so you know who is coming into your home",
+"Weekly, fortnightly or occasional help, depending on your needs, message us directly if you require a more specialized roster, we'll do our best to fit your needs.",
+"Support shaped around your routines, sensory needs and the way you prefer your home to be kept",
+"Reliable scheduling so visits feel predictable, not disruptive",
+"Direct communication with you or, if you prefer, your family or plan manager",,
     ],
   },
 ];
@@ -53,7 +56,7 @@ export default function AgedCareSupportPage() {
           <p className="eyebrow">Aged care &amp; disability support</p>
           <h1>Practical home support, delivered with respect.</h1>
           <p>
-            Cleaning and household help for older Australians and people living with disability across Sydney — from a hands-on, owner-operated team who has done this work before.
+           Cleaning and practical household help for older Australians and people living with disability across Sydney — provided by a hands-on team with real experience supporting people in their homes when they've needed it most.
           </p>
         </div>
         <div className="container page-feature-image">
