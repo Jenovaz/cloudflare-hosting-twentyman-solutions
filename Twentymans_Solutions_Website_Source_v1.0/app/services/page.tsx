@@ -70,30 +70,6 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
-      <section className="section section-soft">
-        <div className="container narrow" style={{ textAlign: "center", marginBottom: 40 }}>
-          <p className="eyebrow">Pricing</p>
-          <h2>Straightforward, hourly pricing.</h2>
-          <p style={{ color: "var(--muted)", fontSize: "1.05rem" }}>
-            No packages to decode — you pay for the time your home actually needs.
-          </p>
-        </div>
-        <div className="container">
-          <div className="values-grid" style={{ maxWidth: 720, margin: "0 auto" }}>
-            <div>
-              <strong>$60 / hour</strong>
-              <span>Per cleaner. Most regular cleans use one cleaner; larger or deeper jobs may use two working together.</span>
-            </div>
-            <div>
-              <strong>$120 minimum call-out</strong>
-              <span>Applies to every booking and covers setup and travel within our service area.</span>
-            </div>
-          </div>
-          <p style={{ maxWidth: 720, margin: "24px auto 0", textAlign: "center", color: "var(--muted)" }}>
-            Your exact time and price depend on your property&apos;s size, condition and how often you&apos;d like us back — we confirm this with you before booking, never after.
-          </p>
-        </div>
-      </section>
       <section className="note-section">
         <div className="container note-card">
           <div>

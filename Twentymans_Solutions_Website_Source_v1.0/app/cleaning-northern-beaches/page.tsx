@@ -101,10 +101,6 @@ export default function NorthernBeachesPage() {
               <p>Interior glass, tracks and sills are included in our deep and end of lease cleans, and can be added to a regular service. They matter more here than most places given the salt air.</p>
             </details>
             <details>
-              <summary>Do larger homes in Belrose cost more?</summary>
-              <p>They usually take longer, and we charge $60 per hour per cleaner. Larger jobs sometimes suit two cleaners working together to finish in a single visit — we&apos;ll confirm the expected time before booking.</p>
-            </details>
-            <details>
               <summary>How often should a coastal home be cleaned?</summary>
               <p>Fortnightly suits most, though homes close to the beach with a lot of glass and outdoor flow often benefit from weekly. We&apos;ll give you an honest recommendation rather than pushing the bigger booking.</p>
             </details>

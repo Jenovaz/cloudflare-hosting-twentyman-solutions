@@ -120,10 +120,6 @@ export default function EndOfLeasePage() {
           </div>
           <div className="faq-list">
             <details>
-              <summary>How much does end of lease cleaning cost in Sydney?</summary>
-              <p>End of lease cleans are quoted as a one-off job rather than by the hour, because the time needed varies enormously with size and condition. Our underlying rate is $60 per hour per cleaner with a $120 minimum call-out — tell us the property details and we&apos;ll give you a firm number before we start.</p>
-            </details>
-            <details>
               <summary>Do you guarantee my bond back?</summary>
               <p>No, and we&apos;d be cautious of anyone who does. Whether a bond is returned depends on the agent, the condition report, and things outside a cleaner&apos;s control like damage or wear. What we will do is tell you honestly what we can achieve, and do the work properly.</p>
             </details>

@@ -150,10 +150,6 @@ export default function AgedCareSupportPage() {
               <summary>Can family members or a plan manager arrange this on someone&apos;s behalf?</summary>
               <p>Of course. We&apos;re happy to coordinate with family, carers, plan managers or support coordinators — whatever works best for the person we&apos;re supporting.</p>
             </details>
-            <details>
-              <summary>What does it cost?</summary>
-              <p>Our standard rate is $60 per hour per cleaner, with a $120 minimum call-out. We charge the same rate regardless of how your plan is managed.</p>
-            </details>
           </div>
         </div>
       </section>

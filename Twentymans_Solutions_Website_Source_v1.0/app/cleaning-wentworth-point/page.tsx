@@ -94,7 +94,7 @@ export default function WentworthPointPage() {
           <div className="faq-list">
             <details>
               <summary>Do you clean apartments as well as houses?</summary>
-              <p>Yes — apartments make up most of our local work. Smaller footprints often mean a shorter visit, though our $120 minimum call-out still applies.</p>
+              <p>Yes — apartments make up most of our local work. Smaller footprints often mean a shorter visit.</p>
             </details>
             <details>
               <summary>Can you handle building access and lift bookings?</summary>

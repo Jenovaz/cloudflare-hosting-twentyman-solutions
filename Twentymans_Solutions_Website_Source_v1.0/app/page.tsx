@@ -290,10 +290,6 @@ export default function Home() {
               <p>Yes. Both of us hold current national police checks, and we&apos;re happy to provide evidence on request. Anyone you let into your home should be able to do the same.</p>
             </details>
             <details>
-              <summary>How much does house cleaning cost in Sydney?</summary>
-              <p>Our rate is $60 per hour per cleaner, with a $120 minimum call-out. What a specific home costs depends on its size, condition and how often we visit — we confirm the expected time with you before booking, never after.</p>
-            </details>
-            <details>
               <summary>Do I need to provide cleaning products and equipment?</summary>
               <p>No — we bring what we need. If you&apos;d prefer we use particular products in your home, whether for allergies, surfaces or personal preference, just let us know and we&apos;ll work with those instead.</p>
             </details>

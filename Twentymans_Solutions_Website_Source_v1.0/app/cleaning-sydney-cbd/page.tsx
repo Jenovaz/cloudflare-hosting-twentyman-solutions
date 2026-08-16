@@ -97,10 +97,6 @@ export default function SydneyCbdPage() {
               <p>Not at all — it&apos;s standard in the city. Tell us what your building needs when you book and we&apos;ll arrange it in advance.</p>
             </details>
             <details>
-              <summary>Is there a minimum charge for a small studio or one bedroom?</summary>
-              <p>Yes. Our $120 minimum call-out applies regardless of size, which usually covers a small apartment comfortably.</p>
-            </details>
-            <details>
               <summary>Can you clean for an investment property between tenants?</summary>
               <p>Yes, and it&apos;s a large part of our city work. Send through the inspection or listing date and we&apos;ll tell you honestly whether we can meet it.</p>
             </details>
