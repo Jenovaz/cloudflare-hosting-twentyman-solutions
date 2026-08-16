@@ -215,7 +215,7 @@ export default function Home() {
               <p className="eyebrow">Client feedback</p>
               <h2>Trusted in homes across Sydney</h2>
             </div>
-            <p>Real feedback from people who have experienced our service.</p>
+            <p>Real feedback from people we&apos;ve worked with.</p>
           </div>
           <div className="testimonial-grid">
             {testimonials.map((item) => (
@@ -232,8 +232,8 @@ export default function Home() {
       <section className="section" id="areas">
         <div className="container areas-grid">
           <div>
-            <p className="eyebrow">Service area</p>
-            <h2>Established service routes across Sydney.</h2>
+            <p className="eyebrow">Where we work</p>
+            <h2>Established routes across Sydney.</h2>
             <p className="section-copy">
               Our regular work takes us through the Inner West and Inner City,
               up to Hornsby and the North Shore, and across to the Northern Beaches.

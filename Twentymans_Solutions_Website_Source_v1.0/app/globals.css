@@ -139,8 +139,10 @@ p { margin-top: 0; }
 .areas-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; }
 .section-copy { max-width: 590px; margin-bottom: 28px; color: var(--muted); font-size: 1.04rem; }
 .area-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.area-list span { display: flex; align-items: center; min-height: 74px; padding: 16px 18px; border-radius: 16px; background: var(--soft); color: var(--navy); font-weight: 800; }
-.area-list span::before { content: ""; width: 9px; height: 9px; margin-right: 12px; border-radius: 50%; background: var(--blue); }
+.area-list span, .area-list a { display: flex; align-items: center; min-height: 74px; padding: 16px 18px; border-radius: 16px; background: var(--soft); color: var(--navy); font-weight: 800; transition: background-color 0.2s ease; }
+.area-list span::before, .area-list a::before { content: ""; width: 9px; height: 9px; margin-right: 12px; border-radius: 50%; background: var(--blue); transition: background-color 0.2s ease; }
+.area-list a:hover { background: #e2f2f7; }
+.area-list a:hover::before { background: var(--blue-bright); }
 
 .faq-section { padding-top: 70px; background: #fbfcfd; }
 .faq-grid { display: grid; grid-template-columns: .72fr 1.28fr; gap: 100px; }
